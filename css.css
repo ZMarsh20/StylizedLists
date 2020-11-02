@@ -1,0 +1,116 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+}
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-color: lawngreen;
+    background-position: center top;
+    font-size: 20px;
+}
+body.listed {
+    background-image: url('flag.webp');
+    background-repeat: repeat-y;
+    background-color: lawngreen;
+    background-position: left 600px top;
+    font-size: 20px;
+}
+p {
+    font-family: impact;
+    color: white;
+    text-align: center;
+}
+nav {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+}
+nav ul {
+    padding: 10px;
+    margin: 0px;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    padding: 5px;
+}
+nav ul li a:hover {
+    background-color: gray;
+}
+nav ul li a:link, nav ul li a:visited {
+    color: white;
+}
+nav ul li.selected {
+    background-color: red;
+    border: outset red;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+th, td {
+    padding: 0px 20px;
+    text-align: center;
+    font-weight: bold;
+    color: midnightblue;
+}
+th {
+    color: mediumspringgreen;
+}
+table.styled {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+tr.styled:nth-child(even) {
+    background-color: green;
+}
+tr.styled:nth-child(odd) {
+    background-color: lime;
+}
+th.styled, td.styled {
+    border: thin solid black;
+    text-align: right;
+    border-collapse: collapse;
+    color: black;
+}
+th.styled {
+    color: white;
+    text-align: center;
+    border-collapse: collapse;
+}
+td.styledL {
+    border: thin solid black;
+    text-align: left;
+    border-collapse: collapse;
+    color: black;
+}
+th.styled {
+    background-color: black;
+    color: white;
+}
+caption {
+    color: white;
+    font-family: impact;
+    padding: 0px 0px 20px 0px;
+}
+ul.list {
+    margin-left: 200px;
+}
+li.lists{
+    list-style-type: none;
+}
+li.ball {
+    list-style-image: url('ball.png');
+}
+li.wood {
+    list-style-image: url('wood.png');
+}
+li.iron {
+    list-style-image: url('iron.png');
+}
+li.wedge {
+    list-style-image: url('wedge.png');
+}
